@@ -14,7 +14,7 @@
 
 ; All-in-One HellDiversScript
 ; Dev Team: Blu3spirits, Crushfield
-; Thanks: bred34 for the strategem call-in directionals 
+; Thanks: bred34 for the strategem directionals 
 ; Beta Testers: grasshopper & Pawteegal
 
 
