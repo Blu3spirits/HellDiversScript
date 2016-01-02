@@ -1,9 +1,9 @@
 
 #HellDivers Macro Project
 
-> By: Blu3spirits & Crushfield
-
 <h3>AutoHotKey Script for HellDivers community</h3>
+
+> By: Blu3spirits & Crushfield
 
 _Files Included in this Project:_
 - HellDiversScript.ahk
