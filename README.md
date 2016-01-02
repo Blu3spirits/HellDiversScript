@@ -8,6 +8,8 @@
 _Files Included in this Project:_
 - HellDiversScript.ahk
 
+---
+
 ####Release Notes:
 _v1.0_
 
@@ -15,9 +17,11 @@ _v1.0_
 - [x] Added DLC stratagems
 - [x] Tweaked script for optimal performance
 
-_NOTE: This script has AutoHotKey Software dependencies SEE BELOW_
+_NOTE: This script has AutoHotKey Software dependencies, SEE BELOW_
 
 ---
+
+#####Installations & Usage
 
 In order to use this script, you will need to download AHK - https://autohotkey.com/download/
 
