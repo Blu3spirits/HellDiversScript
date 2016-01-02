@@ -12,10 +12,10 @@
 ;      AutoHotKey Script - By Spirits & Crushfield - V0.9 beta
 
 
-; All-in-One HellDiversScript
-; Dev Team: Blu3spirits, Crushfield
-; Thanks: bred34 for the strategem directionals 
-; Beta Testers: grasshopper & Pawteegal
+; 	All-in-One HellDiversScript
+; 	Dev Team: Blu3spirits, Crushfield
+; 	Thanks: bred34 for the strategem directionals 
+; 	Beta Testers: grasshopper & Pawteegal
 
 
 ;^ means Ctrl, + is Shift, ! is Alt
