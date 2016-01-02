@@ -13,8 +13,10 @@
 
 
 ; All-in-One HellDiversScript
-; Dev Team Blu3spirits, Crushfield
-; Special Thanks to grasshopper and Pawteegal 
+; Dev Team: Blu3spirits, Crushfield
+; Thanks: bred34 for the strategem call-in directionals 
+; Beta Testers: grasshopper & Pawteegal
+
 
 ;^ means Ctrl, + is Shift, ! is Alt
 
