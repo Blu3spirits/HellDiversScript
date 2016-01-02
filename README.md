@@ -1,11 +1,9 @@
 
-# HellDiversScript
+# HellDiversScript 
 
 <h3>AutoHotKey Script for HellDivers community</h3>
 
 _Files Included in this Project: HellDiversScript.ahk_
-
-This AutoHotKey script Includes key presses for ALL strategems including the DLC
 
 In order to use this script, you will need to download AHK - https://autohotkey.com/download/
 
@@ -17,4 +15,9 @@ To edit the script - Right click the 'HellDrivers.ahk' script,then click edit wi
 
 Further inscrutions are within the 'HellDrivers.ahk' script
 
-Enjoy!
+####Release Notes:
+_v1.0_
+
+- [x] Added core game strategems
+- [x] Added DLC stratagems
+- [x] Tweaked script for optimal performance
