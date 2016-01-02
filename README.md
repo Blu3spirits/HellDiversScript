@@ -29,9 +29,9 @@ We also recommend downloading Notepad++ for editing the script - https://notepad
 
 Editing the script will include assigning which key presses you will be using and which strategem hot keys you want active
 
-To edit the script - Right click the 'HellDrivers.ahk' script, then click edit with Notepad++
+To edit the script - Right click the 'HellDriversScript.ahk' script, then click edit with Notepad++
 
-Further inscrutions are within the 'HellDrivers.ahk' script
+Further instructions are within the 'HellDriversScript.ahk' script
 
 ---
 
