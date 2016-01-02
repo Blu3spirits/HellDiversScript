@@ -5,6 +5,13 @@
 
 _Files Included in this Project: HellDiversScript.ahk_
 
+####Release Notes:
+_v1.0_
+
+- [x] Added core game strategems
+- [x] Added DLC stratagems
+- [x] Tweaked script for optimal performance
+
 _NOTE: This script has AutoHotKey Software dependencies SEE BELOW_
 
 ---
@@ -19,9 +26,4 @@ To edit the script - Right click the 'HellDrivers.ahk' script,then click edit wi
 
 Further inscrutions are within the 'HellDrivers.ahk' script
 
-####Release Notes:
-_v1.0_
 
-- [x] Added core game strategems
-- [x] Added DLC stratagems
-- [x] Tweaked script for optimal performance
