@@ -3,7 +3,8 @@
 
 <h3>AutoHotKey Script for HellDivers community</h3>
 
-_Files Included in this Project: HellDiversScript.ahk_
+_Files Included in this Project:_
+- HellDiversScript.ahk
 
 ####Release Notes:
 _v1.0_
