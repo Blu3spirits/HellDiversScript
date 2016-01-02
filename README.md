@@ -1,5 +1,5 @@
 
-#Hell Divers Macro Project
+#HellDivers Macro Project
 
 <h3>AutoHotKey Script for HellDivers community</h3>
 
