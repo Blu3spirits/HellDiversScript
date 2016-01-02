@@ -1,6 +1,8 @@
 
 #HellDivers Macro Project
 
+> By: Blu3spirits & Crushfield
+
 <h3>AutoHotKey Script for HellDivers community</h3>
 
 _Files Included in this Project:_
