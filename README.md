@@ -16,6 +16,7 @@ _v0.9 beta release_
 - [x] Added core game strategems
 - [x] Added DLC stratagems
 - [x] Tweaked script for optimal performance
+- [x] Entering Phase 2 of development (Testing & Debugging)
 
 _NOTICE: This script has AutoHotKey Software dependencies, SEE BELOW_
 
