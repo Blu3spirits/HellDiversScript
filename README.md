@@ -17,9 +17,9 @@ _v0.9 beta release_
 - [x] Added DLC stratagems
 - [x] Tweaked script for optimal performance
 
-_NOTE: This script has AutoHotKey Software dependencies, SEE BELOW_
+_NOTICE: This script has AutoHotKey Software dependencies, SEE BELOW_
 
-_NOTE :No edits are needed below Line 80_
+_No edits are needed below Line 80 within the script_
 
 ---
 
