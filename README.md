@@ -1,5 +1,7 @@
 # HellDiversScript
+
 AutoHotKey Script for HellDivers community
+-
 
 This AutoHotKey script Includes key presses for ALL strategems including the DLC
 
