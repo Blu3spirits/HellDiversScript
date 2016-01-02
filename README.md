@@ -1,9 +1,15 @@
 
 # Hell Divers Macro Project 
 
+----
+
 <h3>AutoHotKey Script for HellDivers community</h3>
 
 _Files Included in this Project: HellDiversScript.ahk_
+
+_NOTE: This script has AutoHotKey Software dependencies SEE BELOW_
+
+---
 
 In order to use this script, you will need to download AHK - https://autohotkey.com/download/
 
