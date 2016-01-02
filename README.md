@@ -11,7 +11,7 @@ _Files Included in this Project:_
 ---
 
 ####Release Notes:
-_v1.0_
+_v.9 beta_
 
 - [x] Added core game strategems
 - [x] Added DLC stratagems
