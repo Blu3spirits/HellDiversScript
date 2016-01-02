@@ -19,6 +19,8 @@ _v0.9 beta release_
 
 _NOTE: This script has AutoHotKey Software dependencies, SEE BELOW_
 
+_NOTE :No edits are needed below Line 80_
+
 ---
 
 #####Installations & Usage
@@ -32,6 +34,7 @@ Editing the script will include assigning which key presses you will be using an
 To edit the script - Right click the 'HellDriversScript.ahk' file, then click edit with Notepad++
 
 Further instructions are within the 'HellDriversScript.ahk' script
+
 
 ---
 
