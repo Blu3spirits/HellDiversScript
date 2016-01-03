@@ -17,6 +17,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; All-in-One HellDiversScript
 ; Dev Team Blu3spirits, Crushfield
+; Thanks to bred34 for the stratagem directionals
 ; Special Thanks to grasshopper and Pawteegal 
 
 ;^ means Ctrl, + is Shift, ! is Alt
