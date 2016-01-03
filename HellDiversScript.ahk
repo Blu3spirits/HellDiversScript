@@ -666,7 +666,7 @@ NUX223Hellbomb() {
 	Sleep 50 
 	Send w
 	Sleep 50
-	Send d
+	Send s
 	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
