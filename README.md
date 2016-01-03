@@ -18,11 +18,7 @@ _v0.9 beta release_
 - [x] Tweaked script for optimal performance
 - [x] Entering Phase 2 of development (Testing & Debugging)
 
-Known Issues: Script occasionally fails - Working on this ASAP - In the event that your script fails, just keep hitting the assigned hotkey until it works :P
-
-_NOTICE: This script has AutoHotKey Software dependencies, SEE BELOW_
-
-_No edits are needed below Line 80 within the script_
+_NOTICE: This script has AutoHotKey Software dependencies, SEE BELOW. Also, you may have to run the script as admin_
 
 ---
 
