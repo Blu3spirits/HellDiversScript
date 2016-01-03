@@ -4,7 +4,7 @@
 #SingleInstance force ; Don't need multiple script copies
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#IfWinActive Helldivers
+#IfWinActive Helldivers ; Enables hotkeys on active window (game)
 
 
 ;        __  __________    __    ____  _____    ____________  _____
