@@ -29,7 +29,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;x::AMGIIMinigunTurret()
 ;x::ARX34RailcannonTurret()
 ;x::AC22DumDum()
-;x::AD289Angel()
+;x::AD289Angel() 
 ;x::AD334GuardDog()
 ;x::AT47AntiTankEmplacement()
 ;x::AirdroppedAntiTankMines()
