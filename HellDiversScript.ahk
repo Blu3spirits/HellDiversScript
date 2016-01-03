@@ -10,8 +10,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;       / / / / ____/ /   / /   / __ \/  _/ |  / / ____/ __ \/ ___/
 ;      / /_/ / __/ / /   / /   / / / // / | | / / __/ / /_/ /\__ \ 
 ;     / __  / /___/ /___/ /___/ /_/ // /  | |/ / /___/ _, _/___/ / 
-;    /_/ /_/_____/_____/_____/_____/___/  |___/_____/_/ |_|/____/ V1.0
-;           AutoHotKey Script - By Spirits & Crushfield    
+;    /_/ /_/_____/_____/_____/_____/___/  |___/_____/_/ |_|/____/
+;      AutoHotKey Script - By Spirits & Crushfield -  v0.9.1 
 
 
 ; All-in-One HellDiversScript
