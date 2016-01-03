@@ -15,7 +15,9 @@ _v0.9 beta release_
 
 - [x] Added core game strategems
 - [x] Added DLC stratagems
+- [x] Sleep times amended
 - [x] Tweaked script for optimal performance
+- [x] #IfWinActive enabled hotkeys on active (game) windows
 - [x] Entering Phase 2 of development (Testing & Debugging)
 
 _NOTICE: This script has AutoHotKey Software dependencies, SEE BELOW. Also, you may have to run the script as admin_
