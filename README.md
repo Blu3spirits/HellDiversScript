@@ -12,7 +12,7 @@ _Files Included in this Project:_
 ---
 
 ####Release Notes: Entering Phase 2 of development (Testing & Debugging)
-_v0.9 beta release_
+_v0.9.1 beta release (stable)_
 
 - [x] Added core game strategems
 - [x] Added DLC stratagems
