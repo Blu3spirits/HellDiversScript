@@ -6,7 +6,8 @@
 > By: Blu3spirits & Crushfield
 
 _Files Included in this Project:_
-- HellDiversScript.ahk
+- HellDiversScript.ahk (master)
+- HD_ExampleScript.ahk (user example)
 
 ---
 
