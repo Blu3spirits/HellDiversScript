@@ -2,30 +2,27 @@
 #Warn  ; Enable warnings to assist with detecting common errors.
 #Persistent ; Only the user can kill the application
 #SingleInstance force ; Don't need multiple script copies
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ;        __  __________    __    ____  _____    ____________  _____
 ;       / / / / ____/ /   / /   / __ \/  _/ |  / / ____/ __ \/ ___/
 ;      / /_/ / __/ / /   / /   / / / // / | | / / __/ / /_/ /\__ \ 
 ;     / __  / /___/ /___/ /___/ /_/ // /  | |/ / /___/ _, _/___/ / 
-;    /_/ /_/_____/_____/_____/_____/___/  |___/_____/_/ |_|/____/ 
-;      AutoHotKey Script - By Spirits & Crushfield - V0.9 beta
+;    /_/ /_/_____/_____/_____/_____/___/  |___/_____/_/ |_|/____/ V1.0
+;           AutoHotKey Script - By Spirits & Crushfield    
 
 
-; 	All-in-One HellDiversScript
-; 	Dev Team: Blu3spirits, Crushfield
-; 	Thanks: bred34 for the strategem directionals 
-; 	Beta Testers: grasshopper & Pawteegal
-
+; All-in-One HellDiversScript
+; Dev Team Blu3spirits, Crushfield
+; Special Thanks to grasshopper and Pawteegal 
 
 ;^ means Ctrl, + is Shift, ! is Alt
 
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
-; This is where the controls of your scripts are located
-; To 'enable' a strategem define 'x' and remove the ';' in front of it
+; TO 'ENABLE' a strategem define 'x' and remove the ';' in front of it
 ; Be warned! I'm not sure what duplicates will do!
+; This is where the controls of your scripts are located
 
 ;x::AMGIIMinigunTurret()
 ;x::ARX34RailcannonTurret()
@@ -84,17 +81,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 AMGIIMinigunTurret() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -103,17 +100,17 @@ AMGIIMinigunTurret() {
 ARX34RailcannonTurret() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -122,19 +119,19 @@ ARX34RailcannonTurret() {
 AC22DumDum() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -143,19 +140,19 @@ AC22DumDum() {
 AD289Angel() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w 
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -164,19 +161,19 @@ AD289Angel() {
 AD334GuardDog() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w 
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -185,19 +182,19 @@ AD334GuardDog() {
 AT47AntiTankEmplacement() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send a 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -206,15 +203,15 @@ AT47AntiTankEmplacement() {
 AirdroppedAntiTankMines() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -223,15 +220,15 @@ AirdroppedAntiTankMines() {
 AirdroppedStunMines() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -240,17 +237,17 @@ AirdroppedStunMines() {
 AntiPersonnelBarrier() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -259,15 +256,15 @@ AntiPersonnelBarrier() {
 CloseAirSupport() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -276,13 +273,13 @@ CloseAirSupport() {
 DistractorBeacon() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s 
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -291,17 +288,17 @@ DistractorBeacon() {
 EAT17() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -310,19 +307,19 @@ EAT17() {
 EXO44StomperExosuit() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -331,19 +328,19 @@ EXO44StomperExosuit() {
 EXO48Obsidian() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -352,19 +349,19 @@ EXO48Obsidian() {
 EXO51Lumberer() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -373,15 +370,15 @@ EXO51Lumberer() {
 EmergencyBeacon() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -390,17 +387,17 @@ EmergencyBeacon() {
 FLAM40Incinerator() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -409,17 +406,17 @@ FLAM40Incinerator() {
 HeavyAirstrike() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send w 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -428,15 +425,15 @@ HeavyAirstrike() {
 HellfireIncendiaryBombs() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send w 
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -445,13 +442,13 @@ HellfireIncendiaryBombs() {
 HumblebeeUAVdrone() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send w 
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -460,17 +457,17 @@ HumblebeeUAVdrone() {
 LAS98LaserCannon() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a 
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -479,17 +476,17 @@ LAS98LaserCannon() {
 LIFT850JumpPack() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -498,17 +495,17 @@ LIFT850JumpPack() {
 M25Rumbler() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -517,19 +514,19 @@ M25Rumbler() {
 M5APC() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -538,19 +535,19 @@ M5APC() {
 M532HAV() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -559,19 +556,19 @@ M532HAV() {
 MC109HammerMotorcycle() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -580,15 +577,15 @@ MC109HammerMotorcycle() {
 ME1SnifferMetalDetector() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -597,17 +594,17 @@ ME1SnifferMetalDetector() {
 MG94MachineGun() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -616,17 +613,17 @@ MG94MachineGun() {
 MLS4XCommando() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -635,19 +632,19 @@ MLS4XCommando() {
 MissileBarrage() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -656,19 +653,19 @@ MissileBarrage() {
 NUX223Hellbomb() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -677,17 +674,17 @@ NUX223Hellbomb() {
 ObliteratorGrenadeLauncher() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -696,19 +693,19 @@ ObliteratorGrenadeLauncher() {
 OrbitalLaserStrike() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -717,17 +714,17 @@ OrbitalLaserStrike() {
 REC6Demolisher() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -736,17 +733,17 @@ REC6Demolisher() {
 REP80() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -755,17 +752,17 @@ REP80() {
 RL112RecoillessRifle() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -774,17 +771,17 @@ RL112RecoillessRifle() {
 RailcannonStrike() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -793,17 +790,17 @@ RailcannonStrike() {
 Reinforce() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -812,15 +809,15 @@ Reinforce() {
 Resupply() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -829,17 +826,17 @@ Resupply() {
 ResupplyPack() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -848,19 +845,19 @@ ResupplyPack() {
 SH20ShieldGenerator() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -869,19 +866,19 @@ SH20ShieldGenerator() {
 SH32DirectionalKineticShield() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -890,21 +887,21 @@ SH32DirectionalKineticShield() {
 ShredderMissileStrike() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -913,21 +910,21 @@ ShredderMissileStrike() {
 SledgePrecisionArtillery() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -936,15 +933,15 @@ SledgePrecisionArtillery() {
 StaticFieldConductors() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send w 
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -953,13 +950,13 @@ StaticFieldConductors() {
 StrafingRun() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send w
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -968,19 +965,19 @@ StrafingRun() {
 TD110Bastion() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -989,17 +986,17 @@ TD110Bastion() {
 TOX13Avenger() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2
+	Sleep 50
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send d
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -1008,19 +1005,19 @@ TOX13Avenger() {
 TripleThundererBarrage() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send w
-	Sleep 2 
+	Sleep 50 
 	Send a
-	Sleep 2 
+	Sleep 50 
 	Send s
-	Sleep 2 
+	Sleep 50 
 	Send {LControl up}
 	BlockInput Off
 	return
@@ -1029,18 +1026,14 @@ TripleThundererBarrage() {
 VindicatorBunkerBusterBomb() {
 	BlockInput On
 	Send {LControl down}
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send d 
-	Sleep 2
+	Sleep 50
 	Send d
-	Sleep 2
+	Sleep 50
 	Send {LControl up}
 	BlockInput Off
 	return
 }
-
-
-
-
