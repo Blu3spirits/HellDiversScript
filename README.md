@@ -16,7 +16,6 @@ _v0.9 beta release_
 - [x] Added core game strategems
 - [x] Added DLC stratagems
 - [x] Sleep times amended
-- [x] Tweaked script for optimal performance
 - [x] Hotkeys enabled on active (game) window only
 - [x] Entering Phase 2 of development (Testing & Debugging)
 
