@@ -70,7 +70,7 @@ numpad4::SH20ShieldGenerator() ; <------
 ;x::SH32DirectionalKineticShield()
 ;x::ShredderMissileStrike()
 ;x::SledgePrecisionArtillery()
-;x::StaticFieldConductors()
+numpad5::StaticFieldConductors() <------
 ;x::StrafingRun()
 ;x::TD110Bastion()
 ;x::TOX13Avenger()
