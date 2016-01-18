@@ -1,3 +1,4 @@
+![Passing](https://img.shields.io/sensiolabs/i/45afb680-d4e6-4e66-93ea-bcfa79eb8a87.svg)
 
 #HellDivers Macro Project
 
